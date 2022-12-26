@@ -1,0 +1,29 @@
+.inputselect {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+input {
+  position: "relative";
+  padding: 10px 100px;
+  border: 0;
+}
+
+.fa-magnifying-glass {
+  position: absolute;
+  left: 60px;
+}
+
+select {
+  padding: 15px;
+  border: 0;
+}
+
+.container {
+  background-color: #F2F2F2;
+}
+
+.cart {
+  background-color: white;
+}/*# sourceMappingURL=index.css.map */

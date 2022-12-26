@@ -1,0 +1,32 @@
+.inputselect{
+    display: flex;
+    justify-content: space-between;
+    // margin-bottom: 30px;
+    padding: 40px;
+}
+
+input{position:"relative";
+    padding: 10px 100px;
+    border:0
+    // display: flex;
+    // align-items: center;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    left: 60px;
+    // padding-top: -7px;
+    // top:3px
+}
+select{
+    padding: 15px;
+    border: 0;
+}
+.container{
+    background-color:#F2F2F2;
+   
+}
+.cart{
+    background-color: white;
+    // margin-right: 20px;
+}

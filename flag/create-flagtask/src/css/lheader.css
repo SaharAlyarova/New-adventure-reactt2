@@ -1,0 +1,67 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  padding-left: 40px;
+}
+
+button {
+  border: 0;
+  background-color: white;
+  color: black;
+}
+
+.iconbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2px;
+  margin-right: 26px;
+}
+
+.fa-moon {
+  color: black;
+}
+
+.dark-mode .header {
+  background-color: #2b3844;
+}
+.dark-mode h1 {
+  color: white;
+}
+.dark-mode button {
+  color: white;
+  background-color: #2b3844;
+  border: 0;
+}
+.dark-mode .fa-moon {
+  color: white;
+}
+.dark-mode input {
+  background-color: #2b3844;
+  color: white;
+}
+.dark-mode ::placeholder {
+  color: white;
+}
+.dark-mode .fa-magnifying-glass {
+  color: white;
+}
+.dark-mode select {
+  color: white;
+  background-color: #2b3844;
+}
+.dark-mode .container {
+  background-color: #202c37;
+}
+.dark-mode .cart {
+  background-color: #2b3844;
+  color: white;
+}
+
+img {
+  height: 160px;
+}/*# sourceMappingURL=lheader.css.map */

@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // margin-bottom: 20px;
+}
+h1 {
+  padding-left: 40px;
+}
+button {
+  border: 0;
+  background-color: white;
+  color: black;
+}
+.iconbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2px;
+  margin-right: 26px;
+}
+.fa-moon {
+  color: black;
+}
+.dark-mode {
+  .header {
+    background-color: #2b3844;
+  }
+
+  h1 {
+    color: white;
+  }
+  button {
+    color: white;
+    background-color: #2b3844;
+    border: 0;
+  }
+  .fa-moon {
+    color: white;
+  }
+  input {
+    background-color: #2b3844;
+    color: white;
+  }
+  ::placeholder {
+    color: white;
+  }
+
+  .fa-magnifying-glass {
+    color: white;
+  }
+  select {
+    color: white;
+    background-color: #2b3844;
+  }
+  .container {
+    background-color:#202c37// #2b3844
+  }
+  .cart {
+    background-color: #2b3844;
+    color: white;
+  }
+}
+img {
+  height: 160px;
+}
